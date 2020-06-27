@@ -1,0 +1,23 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "###    User stories: 1. I can submit a form that includes a file upload. 2. The form file input field  has the \"name\" attribute set to \"upfile\". We rely on this in testing. 3. When I submit something, I will receive the file name and size in bytes within the JSON response",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
+  },
+  "author": "Dilpreet",
+  "license": "ISC",
+  "engines": {
+    "node": "14.2.0"
+  }
+}
